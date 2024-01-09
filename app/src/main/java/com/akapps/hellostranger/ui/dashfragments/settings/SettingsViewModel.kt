@@ -1,0 +1,7 @@
+package com.akapps.hellostranger.ui.dashfragments.settings
+
+import androidx.lifecycle.ViewModel
+
+class SettingsViewModel : ViewModel() {
+    // TODO: Implement the ViewModel
+}

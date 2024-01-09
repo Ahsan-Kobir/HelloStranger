@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/menu_voice_call"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:checkable="true"
+        android:checked="true"
+        android:enabled="true"
+        android:icon="@drawable/baseline_wifi_calling_3_24"
+        android:title="Voice Call"
+        android:visible="true" />
+    <item
+        android:id="@+id/menu_video_call"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:checkable="true"
+        android:enabled="true"
+        android:icon="@drawable/baseline_video_call_24"
+        android:title="Video Call"
+        android:visible="true" />
+    <item
+        android:id="@+id/menu_chat"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:checkable="true"
+        android:enabled="true"
+        android:icon="@drawable/baseline_chat_24"
+        android:title="Chat"
+        android:visible="true" />
+    <item
+        android:id="@+id/menu_settings"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:checkable="true"
+        android:enabled="true"
+        android:icon="@drawable/baseline_settings_24"
+        android:title="Settings"
+        android:visible="true" />
+</menu>
